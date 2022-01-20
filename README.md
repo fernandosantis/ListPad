@@ -2,7 +2,7 @@
 ## Projeto integrado das disciplinas de Programação de Dispositivos Android 1 (PA1) e Banco de Dados para Computação Móvel (BDM).
 
 O projeto consiste no desenvolvimento de um aplicativo simples de lista em lista com uso de persistência. 
-O aplicativo permite criar, apagar e gerenciar listas (no plural) de Tarefas, que chamaremos aqui de lista de itens.
+O aplicativo permite criar, apagar e gerenciar listas de Tarefas. Existem 3 Categorias pré-cadastradas: Trabalho, Casa ou Lazer.
 A tela principal do aplicativo mostra as listas de Tarefas cadastradas, tem opções para que sejam adicionadas novas, para visualizar detalhes (isto é, os itens que fazem parte) e para apagar listas de itens existentes.
 Ainda possui uma Tag para sere clicacada como Concuida.
 
