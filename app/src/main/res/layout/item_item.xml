@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="8dp"
+        >
+        <ImageView
+            android:id="@+id/chkItem"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_check_0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/bar_bot"
+            android:layout_margin="4dp"
+            app:tint="@color/design_default_color_primary" />
+        <TextView
+            android:id="@+id/txtDescricao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/design_default_color_primary"
+            app:layout_constraintTop_toTopOf="@id/chkItem"
+            app:layout_constraintStart_toEndOf="@id/chkItem"
+            app:layout_constraintEnd_toStartOf="@id/cmdExcluirItem"
+            android:layout_marginHorizontal="8dp"
+            android:maxLines="1"
+            android:lines="1"
+            />
+        <ImageView
+            android:id="@+id/cmdExcluirItem"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_delete"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="4dp"
+            app:tint="@color/design_default_color_primary" />
+        <ImageView
+            android:id="@+id/bar_bot"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/design_default_color_primary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
